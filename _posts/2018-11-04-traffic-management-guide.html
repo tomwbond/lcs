@@ -1,0 +1,124 @@
+---
+layout: post
+title: Good Traffic Management Guide
+date: 2018-11-04 21:19:48.000000000 +00:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Guides
+tags: []
+meta:
+  _x_ethos_post_carousel_display: 'off'
+  _x_ethos_post_slider_blog_display: 'on'
+  _yoast_wpseo_content_score: '90'
+  _x_video_ogv: ''
+  _x_video_m4v: ''
+  _edit_last: '1'
+  _adinserter_block_exceptions: ''
+  _x_entry_body_css_class: ''
+  _x_post_layout: 'off'
+  _x_entry_alternate_index_title: ''
+  _x_entry_bg_image_full: ''
+  _yoast_wpseo_primary_category: '8'
+  _x_ethos_post_slider_archives_display: 'off'
+  _x_quote_cite: ''
+  _x_link_url: ''
+  _x_video_aspect_ratio: '16:9'
+  _x_ethos_index_featured_post_layout: 'off'
+  _x_ethos_index_featured_post_size: Skinny
+  _x_video_embed: ''
+  _x_audio_mp3: ''
+  _x_audio_ogg: ''
+  _x_audio_embed: ''
+  _x_entry_bg_image_full_fade: '750'
+  _x_entry_bg_image_full_duration: '7500'
+  _x_quote_quote: ''
+  _thumbnail_id: '794'
+  _yoast_wpseo_focuskw: traffic
+  _yoast_wpseo_linkdex: '87'
+  _wpas_done_all: '1'
+  _jetpack_related_posts_cache: a:1:{s:32:"37550b67d263a3ce789993dc25046c5f";a:2:{s:7:"expires";i:1705904004;s:7:"payload";a:6:{i:0;a:1:{s:2:"id";i:426;}i:1;a:1:{s:2:"id";i:666;}i:2;a:1:{s:2:"id";i:832;}i:3;a:1:{s:2:"id";i:493;}i:4;a:1:{s:2:"id";i:852;}i:5;a:1:{s:2:"id";i:724;}}}}
+author:
+  login: tombond
+  email: tomwbond@gmail.com
+  display_name: Tom
+  first_name: Tom
+  last_name: ''
+permalink: "/traffic-management-guide/"
+---
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/traffic-overlay-good-traffic.jpg"><img class="alignnone size-full wp-image-800" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/traffic-overlay-good-traffic.jpg" alt="Traffic overlay" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">In Cities: Skylines, every city is unique. The geography, size of your districts, mix of commercial and industrial areas, available outside connections and a hundred other factors will determine the right traffic management solution for each part of the city.</span></p>
+<p><span style="font-weight: 400;">That said, the general principles always apply. There’s optimal strategies that can help you keep traffic flow well over 80% no matter how big your city gets. In this guide, I’ll talk about some of those principles. We’ll also look at a few of the game’s systems, UI and quirks.</span></p>
+<p><span style="font-weight: 400;">Here’s a few other posts that complement this one: </span><a href="https://www.lovecitiesskylines.com/reduce-manage-traffic-cities-skylines/" rel="noopener">how to reduce traffic in the first place</a><span style="font-weight: 400;">, </span><a href="https://www.lovecitiesskylines.com/biking-superhighways-guide-cycling/" rel="noopener">how to build bike highways</a><span style="font-weight: 400;">, </span><a href="https://www.lovecitiesskylines.com/easily-add-crosswalks-without-junctions/" rel="noopener">how to add pedestrian crossings</a><span style="font-weight: 400;">, </span><a href="https://www.lovecitiesskylines.com/quick-guide-every-type-public-transport/" rel="noopener">rundown of every public transport type</a><span style="font-weight: 400;">.</span></p>
+<p><i><span style="font-weight: 400;">Note on compatibility: I’m writing this late 2018, after the first seven expansions, including Industries. I’m talking about the unmodded game, so the advice here should work across PC, Mac, Switch, Xbox, PS4 and Linux versions.</span></i></p>
+<h2><span style="font-weight: 400;">What needs to go where</span></h2>
+<p><span style="font-weight: 400;">It’s worth just remembering that the game simulates individual people and goods. They need to literally move from one place to another. Traffic isn’t aggregated or simulated in an abstract way. If traffic can’t get through, it will eventually just despawn. That means businesses can’t fill their jobs and shops can’t stock their shelves. Left alone, those buildings will close down and get abandoned because they can’t operate.</span></p>
+<p><span style="font-weight: 400;">Residents travel from home to work, or home to leisure, and then back. They don’t travel within residential areas - to visit friends, for example. So you don’t need to account for those kinds of journeys. Tourists arrive by road, rail, air or sea, make their visit, then leave the same way.</span></p>
+<p><span style="font-weight: 400;">Goods and cargo travel to commercial areas. Depending on your setup, they’ll come from outside the city, your industrial areas, or a mix of both. I’ve broken that down a bit more on my </span><a href="https://www.lovecitiesskylines.com/supply-chain-specialised-industry/" rel="noopener">supply chain article</a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">In terms of broader city planning, we don’t want residential areas in between industrial and commercial districts - or at least, we don’t want the residential area to be the route between the two. That’s achievable by adding faster bypasses and using policies like Heavy Traffic Ban.</span></p>
+<p><span style="font-weight: 400;">Just for interest, offices also export, but in their case they sell services. It’s not really clear how that works, but IT Clusters, for example, can be seen lit up in the Export tab.</span></p>
+<h2><span style="font-weight: 400;">The most important concept: the hierarchy</span></h2>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/road-hierarchy-small.jpg"><img class="alignnone size-full wp-image-819" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/road-hierarchy-small.jpg" alt="The traffic hierarchy" width="1200" height="675" /></a></p>
+<p><span style="font-weight: 400;">In every part of the city, the most important design principle is to create a road hierarchy. Think of a tree with the trunk roads bearing most of the weight, leading to increasingly small branches as vehicles get closer to their destination.</span></p>
+<p><span style="font-weight: 400;">We can use small, slow two-lane roads to serve the suburbs, faster four-lane roads serving commercial areas and district centres, and fast six-lane roads or highways to link districts together.</span></p>
+<p><span style="font-weight: 400;">In the picture above you can see the green roads serving houses. Those zones, top and bottom, are served by a medium-sized central road in red (with trams, a small commercial centre and service buildings). Perpendicular to that is another medium road and the rail network in blue. In a typical road system, those could be highway but I tend to go for public transport options. Whatever you use, the blue lines take people out of their district and on to another one.</span></p>
+<p><span style="font-weight: 400;">What we want to do is stop traffic passing through districts that aren’t their destination. When traffic that is travelling through combines with local traffic, we get jams. During the journey, we want to funnel traffic up and down the hierarchy.</span></p>
+<h2><span style="font-weight: 400;">City master planning</span></h2>
+<p><span style="font-weight: 400;">Once I’d got a huge 250k population city out of my system, I became much keener on making more interesting cities. Ones bound by tricky geography or built around unusual public transport setups. Now that the </span><a href="https://www.lovecitiesskylines.com/industries-expansion-review/" rel="noopener">Industries</a><span style="font-weight: 400;"> expansion is out, I’m looking forward to building a sprawling region of small industrial towns.</span></p>
+<p><span style="font-weight: 400;">What I’m trying to say is that while there’s optimal strategies for high population, I get more satisfaction from smaller, more characterful cities. I guess that’s the RPG gamer in me: wanting to play based around interesting trait and build choices.</span></p>
+<p><span style="font-weight: 400;">Anyway. Regardless of that, to achieve whatever you’re trying to achieve, it’s important to have a sense of the general shape of the city from quite early on. We’re talking broad strokes here. Where the biggest industries will be, where the biggest commercial district will take shape. What will be suburbs, what will be high-density housing?</span></p>
+<p><span style="font-weight: 400;">That forward-planning extends to which tiles you buy as the city expands. Without mods, you can buy a maximum of 9 tiles within a 5x5 grid. In other words, you can’t have a city that is 9x1 in shape. It also means you can’t buy more than 2 tiles in any direction from your starting tile.</span></p>
+<h2><span style="font-weight: 400;">Getting off to a good start</span></h2>
+<p><span style="font-weight: 400;">Right at the start, it’s a good idea to bring the highway entrance well into the map. It’s important to spread demand for across multiple entrances and exits. Early on, this’ll just be small, slow basic roads. But as long as you leave space, that can eventually upgrade to highway. Once it’s the fastest road in the city, traffic will be encouraged to use it rather than using other districts as cut-throughs.</span></p>
+<p><span style="font-weight: 400;">It’s especially important to leave wide corridors in your city as you expand. Later, you’ll be glad of the space to upgrade roads, or lay down parallel train tracks. In the early days, a single train line can cope with internal traffic, cargo trains and tourism. But later, you’ll probably want 3-5 separate tracks.</span></p>
+<p><span style="font-weight: 400;">That’s especially true about buildings that don’t unlock until later like the cargo hub and airport. Where they go and how they get integrated into the city needs careful thought and advance planning. You might also want to start industrial towns on the outskirts and need highways leading to them.</span></p>
+<p><span style="font-weight: 400;">If there isn’t space to grow, the bulldozing operation to retrofit the city will take forever and cost a fortune. I often get a notepad out. Something about getting things down on paper makes it much easier to work out.</span></p>
+<h2><span style="font-weight: 400;">Encouraging traffic onto trunks roads</span></h2>
+<p><span style="font-weight: 400;">Before every journey, the game calculates the fastest route to the destination. Because roads have different speed limits, traffic will gravitate towards ones where they can move faster. That means even if the slower roads are a shorter path, they’ll naturally head to the main roads - in most cases.</span></p>
+<p><span style="font-weight: 400;">If necessary, you could keep districts disconnected from the next one over except for the main road. But in most cases, a well thought out system can still have plenty of interconnections for short. Those don’t actually need to be sent out onto the highway.</span></p>
+<p><span style="font-weight: 400;">By the way, you can replace key segments of the road network with public transport. In my current city, I’ve got railway lines the run down the whole spine of the city. There’s normal and multi-platform stations, district and express trains and multiple parallel lines. The setup is fast, high-capacity and connects all parts of the city. In this design, the railway replaces highways. Because the train is just so much faster than driving round on the roads, most people leave the car at home.</span></p>
+<h2><span style="font-weight: 400;">Identifying and diagnosing problems</span></h2>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/traffic-overlay-busy-streets.jpg"><img class="alignnone size-full wp-image-801" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/traffic-overlay-busy-streets.jpg" alt="Traffic overlay busy roads" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">The Traffic overlay in the UI is the most important tool for finding problems in the network. Red spots in the Traffic panel aren’t necessarily a problem. If you zoom in and see continuous, steady flow, then it’s fine. The red shows usage rather than congestion. If the traffic isn’t too backed up, then you can leave it alone.</span></p>
+<p><span style="font-weight: 400;">Conversely, a high traffic flow percentage doesn’t mean there’s no issues. 85% is just the average, and in a big city, a high number can mask a couple of extremely troublesome areas.</span></p>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/imports-overlay-commercial-2.jpg"><img class="alignnone size-full wp-image-804" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/imports-overlay-commercial-2.jpg" alt="Imports coming into the city" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">The Imports and Exports tab is also a key source of information. By looking at which companies are importing what, and from where, you’ll be able to work out if you need a new highway interchange just to deal with oil imports from outside the city, for example.</span></p>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/routes-overlay-trucks.jpg"><img class="alignnone size-full wp-image-797" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/routes-overlay-trucks.jpg" alt="The Routes overlay" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">On a more local level, the Routes overlay is great for diagnosing problems with busy intersections. Having spotted a bad junction, toggle through the filters to get a live display of who is using that road now, where they came from, and where they’re headed. By separating out private cars, or cargo, it’s possible to identify what’s causing the biggest issues.</span></p>
+<p><span style="font-weight: 400;">As an example, I recently had a very backed up set of junctions. After looking through the filters, I noticed a disproportionate number of garbage trucks. Because of where I’d put the recycling centres, lots of them were trying to pass through to reach more distant parts of the city. Part of the fix was putting some new centres at the other end of town, so trucks could service those areas without needing to pass through the bottleneck.</span></p>
+<h2><span style="font-weight: 400;">Traffic lights, stop signs and priority roads</span></h2>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/stop-signs-2.jpg"><img class="alignnone size-full wp-image-798" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/stop-signs-2.jpg" alt="Stop signs, junctions" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">By default, the game adds traffic lights to large junctions. Early on, that’s no problem, but as traffic load grows, lights can sometimes become inefficient. That’s especially true when they’re holding up traffic on your main roads in favour of side roads.</span></p>
+<p><span style="font-weight: 400;">The stop signs make vehicles coming from that direction give way to traffic on the main road. These are often the best option as they allow generally smooth flow vehicles on the road that has priority. Cars coming from the other road only slot in when there’s a gap.</span></p>
+<p><span style="font-weight: 400;">Where two roads of equal priority meet, it’s worth experimenting just turning off the lights and signs and seeing what happens. Often the result is a little messy but fairly well flowing. </span><span style="font-weight: 400;">The priority road system turns all the stop signs in favour of the road in question. That’s handy as a starting point, but in general, it’s better to deal with each intersection individually.</span></p>
+<p><span style="font-weight: 400;">Just as a side note, guides produced before the Mass Transit patch won’t usually talk about this. Before the free update launched at the time, it wasn’t possible to control traffic lights and stop signs.</span></p>
+<h2><span style="font-weight: 400;">Effective interchanges and intersections</span></h2>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/raised-roundabout-interchange.jpg"><img class="alignnone size-full wp-image-813" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/raised-roundabout-interchange.jpg" alt="Interchange into the city" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">I haven’t got many big or complex interchanges in my own cities because I tend to focus on public transport, bikes and demand reduction. I usually just need a few modifications to improve flow. But if you’re building a car-heavy city or just seem to crack a troublesome hotspot, then turning to the internet can help. The </span><a href="https://www.reddit.com/r/CitiesSkylines/"><span style="font-weight: 400;">Cities: Skylines Reddit</span></a><span style="font-weight: 400;"> has a lot of interesting ideas. For tried and tested real-life layouts, try this brilliant </span><a href="https://en.wikipedia.org/wiki/Interchange_(road)"><span style="font-weight: 400;">Wikipedia</span></a><span style="font-weight: 400;"> page.</span></p>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/raised-highway-interchange.jpg"><img class="alignnone size-full wp-image-811" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/raised-highway-interchange.jpg" alt="Interchange" width="900" height="506" /></a></p>
+<p>Above you can see a fairly standard interchange with extra entry and exit points, and a collector lane on the right. That avoids traffic from the nearby industrial area from joining the main highway and interrupting vehicles who are passing straight through.</p>
+<p><span style="font-weight: 400;">The main principle is that fewer, bigger interchanges usually works better. Junctions themselves shouldn’t be too close together. When laying down roads, the circles show the minimum distance to leave between intersections. If they’re closer cars will someone get stuck in an endless loop between the roads.</span></p>
+<p><span style="font-weight: 400;">It’s a great idea to create bridges and tunnels for pedestrians that lets them avoid crossing at busy intersections. The last thing you need is hundreds of people on foot needlessly clogging up junctions that would otherwise be able to cope. Pedestrians prefer paths to sidewalks, and they’ll choose them even if the route is slightly longer.</span></p>
+<p><span style="font-weight: 400;">Speaking of intersections, where possible I stick to three-way junctions. Four-way crossroads - especially in busier areas - can grind to a halt. With traffic coming from all directions, 25% of the time just isn’t enough to clear backlogs.</span></p>
+<p><span style="font-weight: 400;">Wider roads are not always - or not even often - the answer. Sometimes it’s the right solution: three lanes letting traffic queue to go left, right or straight on can create three reasonable lines from one very long one. But often - because traffic chooses its lane so early - adding lanes won’t fix anything because it doesn’t solve the underlying problem.</span></p>
+<h2><span style="font-weight: 400;">One way systems</span></h2>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/one-way-system-forestry.jpg"><img class="alignnone size-full wp-image-805" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/one-way-system-forestry.jpg" alt="One way traffic system" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">In busy areas, one way roads can be great for improving traffic. By avoiding vehicles - cargo especially - crossing in front of each other, an orderly procession can be organised around a whole area.</span></p>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/one-way-system-forestry-2.jpg"><img class="alignnone size-full wp-image-806" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/one-way-system-forestry-2.jpg" alt="One way traffic system" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">The idea works in and around buildings as well as separating incoming and outgoing traffic.</span></p>
+<h2><span style="font-weight: 400;">Using roundabouts</span></h2>
+<p><a href="https://www.lovecitiesskylines.com/wp-content/uploads/2018/11/roundabout-double-passthrough.jpg"><img class="alignnone size-full wp-image-808" src="{{ site.baseurl }}/E:\Wordpressimporter\LCS/2018/11/roundabout-double-passthrough.jpg" alt="Roundabout with passthroughs" width="900" height="506" /></a></p>
+<p><span style="font-weight: 400;">Roundabouts can solve a lot of problems. They’re great for keeping traffic flowing in places where a simple interaction has ground to a halt. A simple circular design works well in lower flow areas.</span></p>
+<p><span style="font-weight: 400;">When the standard design begins to struggle under the weight of traffic some modifications and additions can significantly improve capacity. These can include adding a through road that lets traffic going straight on keep going unimpeded.</span></p>
+<p><span style="font-weight: 400;">By using a tunnel or bridge, it’s possible to have two through roads. In the example above, traffic going straight over doesn't need to interact with traffic turning. If I was making that again, I'd use smaller roads. Six lanes aren't great for this sort of use.</span></p>
+<p><span style="font-weight: 400;">To keep roundabouts round, use the curved road tool and carefully measure each arm to be same length. Alternatively, draw straight roads then connect them with curved arms. Once you’ve got a circle, delete the straight parts.</span></p>
+<h2><span style="font-weight: 400;">Why everyone drives in the same lane</span></h2>
+<p><span style="font-weight: 400;">Traffic in Cities: Skylines gets into lane early. They know well in advance which junction or exit they’re taking, and pick a lane much earlier than they need to. Actually, they’re driving well - rather than driving in an empty lane then trying to butt in.</span></p>
+<p><span style="font-weight: 400;">Initially, it can create infuriating scenes where it seems like everyone is being daft and driving in a single lane. But actually, it’s a telltale sign of a problem in the city’s road layout. Mods exist (like </span><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=583429740"><span style="font-weight: 400;">Traffic Manager: President Edition</span></a><span style="font-weight: 400;">) that let you edit the driving AI. These usually come with a performance hit, but modding isn’t the only solution.</span></p>
+<p><span style="font-weight: 400;">Essentially, the problem is that too many people are going to the same place. </span></p>
+<p><span style="font-weight: 400;">There’s lots of ways to address that, but on trick involves exits on both sides of the road. Ideally, main roads should pass in between the districts they serve, so traffic gets spread left and right. But if your main road passes up the right-hand side of the city, then all the important junctions will be on the left. So spreading them out is easier said than done.</span></p>
+<p><span style="font-weight: 400;">In that scenario, you can improve the worst sections by creating an exit on the opposite site that then passes over or under the main road. That way, you get a right-hand exit for a left-hand district. Mix left and right all the way up and you’ll get more lane usage.</span></p>
+<p><em>Thanks so much for reading! I hope you found some of this useful. It's such a broad topic it's difficult to know how high level or detailed this sort of post should be. If there's anything specific you'd like covered, let me know - I'll write about it. Thanks again!</em></p>
